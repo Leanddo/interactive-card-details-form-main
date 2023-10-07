@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+:root{
+
+--Light-grayish-violet: hsl(270, 3%, 87%);
+--Dark-grayish-violet: hsl(279, 6%, 55%);
+--Very-dark-violet: hsl(278, 68%, 11%);
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+
+main {
+    height: 100vh;
+    display: flex;
+    
+}
+.cardsmain{
+    display: flex;
+}
+#cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#cards img{
+    width: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#cards img:nth-child(1){
+    margin-bottom: 35px;
+    margin-left: 240px;
+}
+#cards img:nth-child(2){
+    margin-left: 320px;
+}
+.pcartao{
+    font-weight: bolder;
+    position: absolute;
+    top: 290px;
+    right: 100px;
+}
+#cardlogo{
+    position: absolute;
+    top: 140px;
+    right: 370px;
+}
+#nome{
+    color: var(--Light-grayish-violet);
+    font-size: 14px;
+    right: 340px;
+    top: 290px;
+}
+#cartaonum{
+    color: white;
+    font-weight:900;
+    font-size: 27px;
+    top: 235px;
+    right: 148px;
+}
+#validade{
+    color: var(--Light-grayish-violet);
+    right: 110px;
+    font-size: 14px;
+}
+#numconfirm{
+    color: white;
+    top: 465px;
+    right: 50px;
+}
+
+#backgroundcard{
+    display: flex;
+    align-items: start;
+    width: 500px;
+    position:fixed;
+}
+.userdata{
+    width: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    
+}
+.userdata {
+    font-size: 16px;
+    font-weight: lighter;
+    color: var(--Very-dark-violet);
+    
+}
+.userdata .smallinput,.biginput{
+    margin:5px 2px 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.biginput{
+    width: 350px; 
+}
+.smallinput{
+    width: 50px;
+    margin-right: 10px;
+}
+.mediuminput{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 180px;
+    font-size: 16px;
+}
+#spacespan{
+    margin-left: 30px;
+}
+.button{
+    padding: 15px;
+    width: 378px;
+    background-color:hsl(278, 68%, 11%);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
